@@ -28,4 +28,20 @@ class Post extends Model
         'content',
         'post_date'
     ];
+
+    public $searchSettings = [
+        'attributesToHighlight' => [
+            '*'
+        ]
+    ];
+
+    public $highlight = [];
+
+    public function toSearchableArray()
+    {
+        return [
+            'title' => $this->title,
+            'content' => $this->content
+        ];
+    }
 }

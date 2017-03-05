@@ -1,0 +1,113 @@
+#app {
+    margin-top: 20px;
+}
+.h50 {
+    height: 50px;
+}
+.search-results {
+    margin-top: 20px;
+    padding: 20px;
+    line-height: 25px;
+}
+
+.search-results .panel-heading h3 {
+    color: #696969;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.search-results a {
+    color: #333;
+}
+
+.search-results .result {
+    margin-bottom: 20px;
+}
+
+.search-results .user.result {
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.search-results .result em {
+    color: #EB5424;
+    font-style: normal;
+}
+
+.search-results .result .title {
+    font-size: 18px;
+}
+
+.search-results .result .title .badge {
+    background: #EBEDEE;
+    color: #9A9DA0;
+    font-weight: normal;
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.search-results .result .info {
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.search-results .result .info .url a {
+    color: #23863F;
+}
+
+.search-results .result .info .date {
+    color: #999;
+    margin-left: 8px;
+}
+
+.search-results .result .desc {
+    color: #666;
+    font-size: 14px;
+    word-break: break-all;
+}
+
+.search-results .result .desc em {
+    color: #F86334;
+}
+
+.search-results .user .info {
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+.search-results .user .info.number {
+    color: #666;
+    font-size: 13px;
+}
+
+.search-results em {
+    color: #e07b7a;
+}
+
+.search-results .role-label {
+    display: inline-block;
+    position: absolute;
+}
+
+.search-results .role-label a.label {
+    font-size: 85%;
+    font-weight: 100;
+    padding: 0.2em 1em .2em;
+    position: relative;
+    margin: 8px;
+    color: #fff;
+}
+
+.search-results .user-info {
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.search-results hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.search-results .list-panel .panel-body {
+    padding: 0px;
+}
