@@ -4,7 +4,7 @@
         <div class="col-md-12">
             <form action="/search">
                 <div class="input-group">
-                    <input type="text" class="form-control h50" name="q" placeholder="关键字..." value="{{ $q }}">
+                    <input type="text" class="form-control h50" name="query" placeholder="关键字..." value="{{ $q }}">
                     <span class="input-group-btn"><button class="btn btn-default h50" type="submit" type="button"><span class="glyphicon glyphicon-search"></span></button></span>
                 </div>
             </form>

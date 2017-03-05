@@ -9,7 +9,7 @@ class PostController extends Controller
 {
     public function search(Request $request)
     {
-        $q = $request->get('q');
+        $q = $request->get('query');
         $paginator = [];
         if ($q) {
             $paginator = Post::search($q)->paginate();
