@@ -2,8 +2,8 @@
 
 ## 目录
 
-- [介绍](#Introduction)
-- [安装](#Installation)
+- [介绍](#introduction)
+- [安装](#installation)
 
 ## Introduction 
 
