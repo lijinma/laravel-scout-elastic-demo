@@ -1,1 +1,0 @@
-# laravel-scout-elastic-demo
