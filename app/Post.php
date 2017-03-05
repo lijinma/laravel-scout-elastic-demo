@@ -2,6 +2,7 @@
 
 namespace App;
 
+use App\Libraries\EsSearchable;
 use Illuminate\Database\Eloquent\Model;
 use Laravel\Scout\Searchable;
 
@@ -18,7 +19,7 @@ use Laravel\Scout\Searchable;
  */
 class Post extends Model
 {
-    use Searchable;
+    use Searchable, EsSearchable;
     protected $table = 'posts';
 
     protected $fillable = [
@@ -28,14 +29,6 @@ class Post extends Model
         'content',
         'post_date'
     ];
-
-    public $searchSettings = [
-        'attributesToHighlight' => [
-            '*'
-        ]
-    ];
-
-    public $highlight = [];
 
     public function toSearchableArray()
     {
