@@ -38,11 +38,11 @@ class InitEs extends Command
     public function handle()
     {
         $client = new Client();
-        $this->resetTemplate($client);
-        $this->resetIndex($client);
+        $this->createTemplate($client);
+        $this->createIndex($client);
     }
 
-    protected function resetIndex(Client $client)
+    protected function createIndex(Client $client)
     {
         $url = config('scout.elasticsearch.hosts')[0] . ':9200/' . config('scout.elasticsearch.index');
         $client->put($url, [
@@ -63,14 +63,9 @@ class InitEs extends Command
         ]);
     }
 
-    protected function resetTemplate(Client $client)
+    protected function createTemplate(Client $client)
     {
         $url = config('scout.elasticsearch.hosts')[0] . ':9200/' . '_template/rtf';
-        try {
-            $client->delete($url);
-        } catch (\Exception $e) {
-
-        }
         $client->put($url, [
             'json' => [
                 'template' => '*',
