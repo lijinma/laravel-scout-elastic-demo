@@ -104,6 +104,14 @@ $ curl http://localhost:9200
 ```
 如果正确的打印以上信息，证明 ElasticSearch 已经安装好了。
 
+接着你需要查看一下 ik 插件是否安装（请在你的 ElasticSearch 文件夹中执行）：
+
+```bash
+$ ./bin/elasticsearch-plugin list
+analysis-ik
+```
+如果出现 `analysis-ik`，证明 ik 已经安装。
+
 ### 开启 php 自带 Web sever
 请确保你的 8000 端口没有被占用。
 ```
