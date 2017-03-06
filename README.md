@@ -153,6 +153,12 @@ create one post!
 
 ![demo2](https://raw.githubusercontent.com/lijinma/MyBox/master/demo2.png)
 
+### 代码解释请查看三篇文章：
+
+[一：写一个搜索：使用 Laravel Scout，Elasticsearch，ik 分词](https://laravel-china.org/articles/4027)
+[二：写一个搜索：解决搜索结果高亮问题，使用 Laravel Scout，Elasticsearch，ik 分词](https://laravel-china.org/articles/4038)
+[三：写一个搜索：自定义词库；使用 Laravel Scout，Elasticsearch，ik 分词](https://laravel-china.org/articles/4039)
+
 ## License
 
 The MIT License (MIT).
