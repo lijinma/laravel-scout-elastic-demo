@@ -12,6 +12,15 @@
 这个 Demo 是“[笑来搜](http://xiaolai.co)”的一个原型。
  
 你可以直接看一下最终的效果，请查看 http://scout.lijinma.com/search 。
+
+如果想看看代码原理，请请查看三篇文章：
+
+[一：写一个搜索：使用 Laravel Scout，Elasticsearch，ik 分词](https://laravel-china.org/articles/4027)
+
+[二：写一个搜索：解决搜索结果高亮问题，使用 Laravel Scout，Elasticsearch，ik 分词](https://laravel-china.org/articles/4038)
+
+[三：写一个搜索：自定义词库；使用 Laravel Scout，Elasticsearch，ik 分词](https://laravel-china.org/articles/4039)
+
  
 # Versions
 > Laravel 5.4
@@ -152,12 +161,6 @@ create one post!
 从浏览器打开 [http://localhost:8000](http://localhost:8000)，搜索一个数据，比如`成长`
 
 ![demo2](https://raw.githubusercontent.com/lijinma/MyBox/master/demo2.png)
-
-### 代码解释请查看三篇文章：
-
-[一：写一个搜索：使用 Laravel Scout，Elasticsearch，ik 分词](https://laravel-china.org/articles/4027)
-[二：写一个搜索：解决搜索结果高亮问题，使用 Laravel Scout，Elasticsearch，ik 分词](https://laravel-china.org/articles/4038)
-[三：写一个搜索：自定义词库；使用 Laravel Scout，Elasticsearch，ik 分词](https://laravel-china.org/articles/4039)
 
 ## License
 
