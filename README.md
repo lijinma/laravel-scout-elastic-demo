@@ -153,7 +153,9 @@ create one post!
 
 ![demo2](https://raw.githubusercontent.com/lijinma/MyBox/master/demo2.png)
 
+## License
 
+The MIT License (MIT).
 
 
 
