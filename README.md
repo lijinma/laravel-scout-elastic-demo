@@ -162,6 +162,12 @@ create one post!
 
 ![demo2](https://raw.githubusercontent.com/lijinma/MyBox/master/demo2.png)
 
+## 打赏
+我是金马，一个想搞点事情的程序员。如果这个项目对你有帮助，你可以请我喝杯咖啡，谢谢 :)
+
+![](http://xiaolai.co/img/alipay.jpeg)
+![](http://xiaolai.co/img/pay.png)
+
 ## License
 
 The MIT License (MIT).
